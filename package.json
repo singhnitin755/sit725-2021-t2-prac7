@@ -1,0 +1,20 @@
+{
+  "name": "sit725-2021-t2-prac2",
+  "version": "1.0.0",
+  "description": "sit725 week2 prac",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhnitin755/sit725-2021-t2-prac2.git"
+  },
+  "author": "nitin singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/singhnitin755/sit725-2021-t2-prac2/issues"
+  },
+  "homepage": "https://github.com/singhnitin755/sit725-2021-t2-prac2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
