@@ -1,20 +1,22 @@
 {
-  "name": "sit725-2021-t2-prac2",
+  "name": "sit725-2021-t2-prac4",
   "version": "1.0.0",
-  "description": "sit725 week2 prac",
+  "description": "sit725 week4 prac",
   "main": "server.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/singhnitin755/sit725-2021-t2-prac2.git"
+    "url": "git+https://github.com/singhnitin755/sit725-2021-t2-prac4.git"
   },
   "author": "nitin singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/singhnitin755/sit725-2021-t2-prac2/issues"
+    "url": "https://github.com/singhnitin755/sit725-2021-t2-prac4/issues"
   },
-  "homepage": "https://github.com/singhnitin755/sit725-2021-t2-prac2#readme",
+  "homepage": "https://github.com/singhnitin755/sit725-2021-t2-prac4#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.0"
   }
 }
