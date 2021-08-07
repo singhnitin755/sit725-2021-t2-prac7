@@ -60,11 +60,11 @@ app.get('/api/projects',(req,res) => {
     //res.json({statusCode: 200, data: cardList, message:"Success"})
 })
 
-app.post('/api/projcts',(req,res) => {
+app.post('/api/projects',(req,res) => {
     console.log("New Project added", req.body)
     var newProject = req.body;
     //cardList.push(newProject);
-    insertProjects(newProjects,(err,result) => {
+    insertProjects(newProject,(err,result) => {
         if(err) {
             res.json({statusCode: 400, message: err})
       }
@@ -79,5 +79,5 @@ var port = process.env.port || 3000;
 
 app.listen(port, () => {
     console.log("App listening to: " + port);
-    createColllection("to do list")
+    createColllection("Coffee")
 })
