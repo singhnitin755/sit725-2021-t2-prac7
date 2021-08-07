@@ -1,6 +1,6 @@
-const cardList = [
+//const cardList = [
 
-]
+//]
 const clickMe = () => {
     alert("Thanks for clicking me. Hope you have a nice day!")
 }
@@ -29,10 +29,13 @@ const submitForm = () => {
 }
 
 const getProjects = () => {
-    $.get('/api/project',(response) => {
+    $.get('/api/projects',(response) => {
         if(response.statusCode==200){
             console.log(response)
             addCards(response.data); 
+        }
+        else {
+            console.log(response)
         }
     })
 }
