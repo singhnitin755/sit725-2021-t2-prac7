@@ -2,7 +2,7 @@
 //database connection
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = "mongodb+srv://sit725-2021-t2:zI9YQ7KiprxVZ3Us@sit725.jzgkz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://sit-725-2021:NitI75&^@sit-725.arscq.mongodb.net/SIT-725?retryWrites=true&w=majority"
 let mongoClient = new MongoClient(uri, { useNewUrlParser: true,useUnifiedTopology: true });
 
 let projectsCollection;
