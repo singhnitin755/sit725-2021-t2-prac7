@@ -1,3 +1,3 @@
-This is week 5 prac of SIT725 It uses MVC structure starategy
+This is prac 6 of SIT725
 
-Model-view-controller(MVC)
+It uses Mocha and chai
