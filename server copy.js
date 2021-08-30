@@ -16,12 +16,12 @@ app.use(express.static(__dirname + '/public'));
 
 
 const dummyProject={
-  author:'satvika',
-  imageUrl:'https://share.balsamiq.com/c/3S11bcuXgmEGB4ZYCkxpuy.png',
-  //videoUrl:'https://youtu.be/SkgTxQm9DWM',
+  author:'nitin',
+  imageUrl:'https://balsamiq.cloud/sidu6q5/phzfqdi/r2278',
+  
   uniqueID:'4',
-  description:'We want to create an to do list ',
-  title:'To do list'
+  description:'We want to create an coffee app ',
+  title:'Coffee'
 }
 let dummyData=[dummyProject,dummyProject]
 
@@ -69,7 +69,7 @@ http.listen(port,()=>{
 
 /// DATABASE Connections
 //database connection 
-const uri = "mongodb+srv://sit725-2021-t2:zI9YQ7KiprxVZ3Us@sit725.jzgkz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const uri = "mongodb+srv://sit-725-2021:NitI75&^@sit-725.arscq.mongodb.net/SIT-725?retryWrites=true&w=majority"
 const client = new MongoClient(uri, { useNewUrlParser: true,useUnifiedTopology: true });
 
 let projectsCollection;
